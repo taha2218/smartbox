@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/smartbox/static/css/main.c218cce4.chunk.css",
+    "main.js": "/smartbox/static/js/main.e5962083.chunk.js",
+    "main.js.map": "/smartbox/static/js/main.e5962083.chunk.js.map",
+    "runtime-main.js": "/smartbox/static/js/runtime-main.53f4a7a9.js",
+    "runtime-main.js.map": "/smartbox/static/js/runtime-main.53f4a7a9.js.map",
+    "static/css/2.3b6f1bda.chunk.css": "/smartbox/static/css/2.3b6f1bda.chunk.css",
+    "static/js/2.a690048a.chunk.js": "/smartbox/static/js/2.a690048a.chunk.js",
+    "static/js/2.a690048a.chunk.js.map": "/smartbox/static/js/2.a690048a.chunk.js.map",
+    "index.html": "/smartbox/index.html",
+    "precache-manifest.f9b108b23948cf740624b1d734446079.js": "/smartbox/precache-manifest.f9b108b23948cf740624b1d734446079.js",
+    "service-worker.js": "/smartbox/service-worker.js",
+    "static/css/2.3b6f1bda.chunk.css.map": "/smartbox/static/css/2.3b6f1bda.chunk.css.map",
+    "static/css/main.c218cce4.chunk.css.map": "/smartbox/static/css/main.c218cce4.chunk.css.map",
+    "static/js/2.a690048a.chunk.js.LICENSE.txt": "/smartbox/static/js/2.a690048a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.53f4a7a9.js",
+    "static/css/2.3b6f1bda.chunk.css",
+    "static/js/2.a690048a.chunk.js",
+    "static/css/main.c218cce4.chunk.css",
+    "static/js/main.e5962083.chunk.js"
+  ]
+}
