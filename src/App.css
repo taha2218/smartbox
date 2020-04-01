@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar{
+  width: 0;
+}

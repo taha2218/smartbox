@@ -1,0 +1,75 @@
+.landingPage{
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Form{
+    width: 350px;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.buffer:first-child{
+    height: 12px;
+    background-color: rgb(255, 0, 119);
+    transform: translateX(175px);
+    transition: all 1s;
+}
+.buffer:last-child{
+    height: 12px;
+    background-color: rgb(255, 0, 119);
+    transform: translateX(-175px);
+    transition: all 1s;
+}
+.Form:hover .buffer:first-child{
+    transform: translateX(0);
+}
+.Form:hover .buffer:last-child{
+    transform: translateX(0);
+}
+.info{
+    background-color: rgb(255, 223, 236);
+    transition: all 1s;
+    overflow: hidden;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 50px;
+    font-size: 1.5em;
+    color: rgb(255, 0, 119);
+    padding-top:55px;
+    padding-bottom: 7px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+input{
+    text-align: center;
+    color:rgb(255, 0, 119)
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 170px;
+}
+.pad{
+    margin-top: 10px;
+}                               
+.submit{
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info:hover{
+    background-color: rgb(255, 244, 249);
+}
+
+@media screen and (max-width: 500px) {
+    .Form {
+      width: 290px;
+    }
+  }

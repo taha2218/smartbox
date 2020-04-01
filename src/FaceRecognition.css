@@ -1,0 +1,26 @@
+.ImageContainer{
+    margin: 0px;
+    padding: 0px;   
+    position: relative;
+    box-sizing: content-box;
+
+}
+.boundingbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px rgb(255, 0, 119);
+    position: absolute;
+    margin: 0;
+    padding:0;
+}
+.bgcontainer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(255, 0, 119);
+    width: 100vw;
+}

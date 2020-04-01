@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+
+nav{
+    width: 100%;
+    box-sizing: border-box;
+    height: 8vh;
+    background-color: rgb(255, 0, 119);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 30px;
+    color: white;
+    overflow: hidden;
+}
+p{
+    margin: 0;
+    font-size: 15px;
+}
+.pushRight{
+    margin-right: auto;
+    background-color:rgb(255, 66, 154);
+    font-family: 'Kaushan Script', cursive;
+}
+.pushRight p{
+    font-size: 1.5em;
+    letter-spacing: 1.5px;
+}
+.logo{
+    padding-right: 10px;
+}
+
+.IconItem{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    height: 100%;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.IconItem:hover{
+    background-color: rgb(255, 66, 154);
+}
+.md-18{
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+@media screen and (max-width:500px) {
+    nav{
+        padding: 0;
+    }
+    p{
+     font-size: 0px;
+     padding: 0;
+    }
+   .md-18{
+       font-size: 20px;
+       padding: 0px !important;
+    }
+   .IconItem:hover{
+    background-color: rgb(255, 0, 119);
+    }
+    .pushRight{
+        font-size: 0.8em;
+        background-color: rgb(255, 0, 119);
+    }
+    .logo{
+        height: 40px;
+        width: 40px;
+    }
+ }

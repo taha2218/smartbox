@@ -1,0 +1,68 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 92vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.innerContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container p{
+    padding: 10px;
+    font-weight: 550;
+    color: rgb(255, 0, 119);
+}
+.link{
+    padding: 10px;
+}
+
+input{
+    border: 0.5px solid rgb(255, 0, 119);
+    padding: 5px !important;
+    width: 180px;
+}
+input:focus{
+    outline: none;
+}
+.link input[type=text] {
+    color: rgb(255, 167, 208);
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    padding: 4px 0;
+    height: 30px;
+}
+
+button{
+    padding: 4px 0;
+    text-align: center;
+    height: 30px;
+    border: solid 0.5px rgb(255, 0, 119);
+    background-color: rgb(255, 0, 119);
+    width: 80px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+button:focus{
+    outline:none;
+}
+::placeholder{
+    color: rgb(255, 167, 208);
+}
+.particleStyle{
+    padding: 0 ;
+    margin: 0;
+    position: absolute ;
+    height: 92vh;
+    width: 100vw;
+    top: 8vh;
+    z-index: -1;
+    
+  }
